@@ -33,7 +33,7 @@ public class DetailActivity extends AppCompatActivity {
         txvNome = findViewById(R.id.tvNome);
         txvPeso = findViewById(R.id.tvPeso);
         txvAltura = findViewById(R.id.tvAltura);
-        imgPokemon = findViewById(R.id.imageView2);
+        imgPokemon = findViewById(R.id.imgPokemon);
         Intent intent = getIntent();
         Pokemon p = (Pokemon) intent.getSerializableExtra("pokemon");
 
